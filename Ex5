@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Marklist</h1><hr>    
+    <!--Invoke marklist1 servlet to display all the students' marks-->
+    <a href="http://localhost:8080/MyServlets/db1">Display all students' marks</a>
+    <hr>
+    <!-- On submit invoke marklist2 servlet to display mark details of specific dept students-->
+    <h3>View Department Specific Mark Details</h3>
+    <form action="http://localhost:8080/MyServlets/db2" method="GET">
+        <!--Drop down selection-->
+        <label for="course">Department</label>
+        <select id="course" name="course">
+        <option value="empty">--</option>
+        <option value="CSE">Computer Science and Engineering</option>
+        <option value="ECE">Electronics and Communication Engineering</option>
+        <option value="MECH">Mechanical Engineering</option>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT"/>
+    </form>
+    <h2>Insert Data into DB</h2>
+    <form action="http://localhost:8080/MyServlets/db3" method="POST">
+        <p>Dept ID:</p> 
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter() -->
+        <input type="text" name="depid"/>
+        <p>Dept Name:</p> 
+        <input type="text" name="depname"/>
+        <p>NOS:</p> 
+        <input type="text" name="depnos"/>
+        <br/>
+        <p>Student Name:</p> 
+        <input type="text" name="std_name"/>
+        <br/>
+        <p>Student Department:</p> 
+        <input type="text" name="std_dept"/>
+        <br/>
+        <p>Student Sport:</p> 
+        <input type="text" name="std_sport"/>
+        <br/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
