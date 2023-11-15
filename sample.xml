@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sports_stars>
+    <athlete>
+        <name>Lionel Messi</name>
+        <sport>Soccer</sport>
+        <team>Inter Miami</team>
+        <country>Argentina</country>
+        <achievements>
+            <achievement>Multiple FIFA Ballon d'Or winner</achievement>
+            <achievement>Champions League titles</achievement>
+        </achievements>
+    </athlete>
+    <athlete>
+        <name>LeBron James</name>
+        <sport>Basketball</sport>
+        <team>Los Angeles Lakers</team>
+        <country>United States</country>
+        <achievements>
+            <achievement>NBA Championships</achievement>
+            <achievement>NBA Most Valuable Player (MVP) awards</achievement>
+        </achievements>
+    </athlete>
+    <athlete>
+        <name>Roger Federer</name>
+        <sport>Tennis</sport>
+        <team>-</team>
+        <country>Switzerland</country>
+        <achievements>
+            <achievement>20 Grand Slam titles</achievement>
+            <achievement>Wimbledon Championships</achievement>
+
+        </achievements>
+    </athlete>
+    <athlete>
+        <name>Usain Bolt</name>
+        <sport>Athletics</sport>
+        <team>-</team>
+        <country>Jamaica</country>
+        <achievements>
+            <achievement>Multiple Olympic gold medals</achievement>
+            <achievement>World record holder in 100m and 200m</achievement>
+        </achievements>
+    </athlete>
+    <athlete>
+        <name>Cristiano Ronaldo</name>
+        <sport>Soccer</sport>
+        <team>Al-Nassr</team>
+        <country>Portugal</country>
+        <achievements>
+            <achievement>Multiple FIFA Ballon d'Or winner</achievement>
+            <achievement>UEFA Champions League titles</achievement>
+        </achievements>
+    </athlete>
+    <athlete>
+        <name>Virat Kohli</name>
+        <sport>Cricket</sport>
+        <team>Indian National Cricket Team</team>
+        <country>India</country>
+        <achievements>
+            <achievement>ICC Cricketer of the Year</achievement>
+            <achievement>Multiple centuries in international cricket</achievement>
+        </achievements>
+    </athlete>
+</sports_stars>
