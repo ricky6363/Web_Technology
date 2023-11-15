@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Exam</title>
+    <style>
+        form{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="background-color: lightgreen; display: flex">
+    <img src="ment.jpg" alt="" >
+    <form action="http://localhost:8080/MyServlets2/userhitcount" method="post">
+        <h1>Online Exam: 311121104004</h1>
+        <p>Question 1: In which year did Maradona score a goal with his hand?</p><br>
+        <input type="radio" name="q1" value="1986">1986<br>
+        <input type="radio" name="q1" value="1985">1985<br>
+        <input type="radio" name="q1" value="1987">1987<br>
+        <br><br>
+        <p>Question 2: At what number does one begin when playing Darts?</p><br>
+        <input type="radio" name="q2" value="502">502<br>
+        <input type="radio" name="q2" value="601">601<br>
+        <input type="radio" name="q2" value="501">501<br>
+        <br><br>
+        <p>Question 3: How many minutes is a rugby match?</p><br>
+        <input type="radio" name="q3" value="85">85<br>
+        <input type="radio" name="q3" value="90">90 <br>
+        <input type="radio" name="q3" value="80">80 <br>
+        <br><br>
+        <p>Question 4: How many holes are there on a standard golf course?</p><br>
+        <input type="radio" name="q4" value="20">20<br>
+        <input type="radio" name="q4" value="15">15<br>
+        <input type="radio" name="q4" value="18"> 18<br>
+        <br><br>
+        <p>Question 5: In Australian football, what is the maximum number of players allowed on the field at a time?</p><br>
+        <input type="radio" name="q5" value="38">38<br>
+        <input type="radio" name="q5" value="40">40<br>
+        <input type="radio" name="q5" value="36">36<br>
+        <br><br>
+        <input type="submit" value="Submit" style="background-color:blue;width:150px;height: 50px; color: white; font-weight: bold; margin-left: 40%; border-radius: 10px;">
+    </form>
+</body>
+</html>

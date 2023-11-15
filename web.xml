@@ -1,0 +1,132 @@
+<web-app>   
+    <!-- Program p5.java -->
+    <servlet>
+        <servlet-name>cookiepgm</servlet-name>
+        <servlet-class>p5</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cookiepgm</servlet-name>
+        <url-pattern>/pgm5</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <!-- Program p6.java -->
+    <servlet>
+        <servlet-name>cookiepgm2</servlet-name>
+        <servlet-class>p6</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cookiepgm2</servlet-name>
+        <url-pattern>/pgm6</url-pattern>
+    </servlet-mapping>
+
+<!-- Program p7_c1.java -->
+    <servlet>
+        <servlet-name>p7_c1</servlet-name>
+        <servlet-class>p7_c1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p7_c1</servlet-name>
+        <url-pattern>/cookieC1</url-pattern>
+    </servlet-mapping>
+<!-- Program p7_c2.java -->
+    <servlet>
+        <servlet-name>p7_c2</servlet-name>
+        <servlet-class>p7_c2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p7_c2</servlet-name>
+        <url-pattern>/cookieC2</url-pattern>
+    </servlet-mapping>
+
+<!-- Program p8_h1.java -->
+    <servlet>
+        <servlet-name>p8_h1</servlet-name>
+        <servlet-class>p8_h1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p8_h1</servlet-name>
+        <url-pattern>/hidden1</url-pattern>
+    </servlet-mapping>
+<!-- Program p8_h2.java -->
+    <servlet>
+        <servlet-name>p8_h2</servlet-name>
+        <servlet-class>p8_h2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p8_h2</servlet-name>
+        <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+
+<!-- Program p9_u1.java -->
+    <servlet>
+        <servlet-name>p9_u1</servlet-name>
+        <servlet-class>p9_u1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p9_u1</servlet-name>
+        <url-pattern>/url1</url-pattern>
+    </servlet-mapping>
+<!-- Program p9_u2.java -->
+    <servlet>
+        <servlet-name>p9_u2</servlet-name>
+        <servlet-class>p9_u2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p9_u2</servlet-name>
+        <url-pattern>/url2</url-pattern>
+    </servlet-mapping>
+<!-- Program p10_sessid1.java -->
+    <servlet>
+        <servlet-name>p10_s1</servlet-name>
+        <servlet-class>p10_sessid1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p10_s1</servlet-name>
+        <url-pattern>/sessid1</url-pattern>
+    </servlet-mapping>
+<!-- Program p10_sessid2.java -->
+    <servlet>
+        <servlet-name>p10_s2</servlet-name>
+        <servlet-class>p10_sessid2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p10_s2</servlet-name>
+        <url-pattern>/sessid2</url-pattern>
+    </servlet-mapping>
+
+<!-- Program p11_hitcount.java -->
+    <servlet>
+        <servlet-name>p11</servlet-name>
+        <servlet-class>p11_hitcount</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p11</servlet-name>
+        <url-pattern>/hitcount</url-pattern>
+    </servlet-mapping>
+    <!-- Program p11_userhitcount.java -->
+
+    <servlet>
+        <servlet-name>p11user</servlet-name>
+        <servlet-class>p11_userhitcount</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p11user</servlet-name>
+        <url-pattern>/userhitcount</url-pattern>
+    </servlet-mapping>
+
+</web-app>
